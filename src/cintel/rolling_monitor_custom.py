@@ -1,7 +1,7 @@
 """
-rolling_monitor_case.py - Project script (example).
+rolling_monitor_custom.py - Project script (example).
 
-Author: Denise Case
+Author: Addie
 Date: 2026-03
 
 Time-Series System Metrics Data
