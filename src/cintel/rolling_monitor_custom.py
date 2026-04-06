@@ -126,7 +126,7 @@ def main() -> None:
     )
 
     requests_rolling_max_recipe: pl.Expr = (
-        pl.col("requests").rolling_mean(WINDOW_SIZE).alias("requests_rolling_max")
+        pl.col("requests").rolling_max(WINDOW_SIZE).alias("requests_rolling_max")
     )
 
     # ----------------------------------------------------
